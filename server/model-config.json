@@ -20,5 +20,9 @@
   "Reviews": {
     "dataSource": "db",
     "public": true
+  },
+  "Author": {
+    "dataSource": "db",
+    "public": true
   }
 }
