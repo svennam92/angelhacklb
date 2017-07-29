@@ -1,0 +1,30 @@
+{
+  "name": "Restaurants",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Location": {
+      "type": "geopoint",
+      "required": true
+    },
+    "Cuisine": {
+      "type": "string",
+      "required": true
+    },
+    "Cost": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

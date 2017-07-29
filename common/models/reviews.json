@@ -1,0 +1,28 @@
+{
+  "name": "Reviews",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Stars": {
+      "type": "number",
+      "required": true
+    },
+    "Content": {
+      "type": "string",
+      "required": true
+    },
+    "Photos": {
+      "type": [
+        "buffer"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
